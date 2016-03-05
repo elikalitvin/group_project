@@ -1,8 +1,46 @@
 body {
 	background-image: url("http://i.kinja-img.com/gawker-media/image/upload/tndkklvnxeoprzcusexl.jpg");
+	background-repeat: no-repeat;
 }
-
 .jumbotron {
 	background-color: rgba(255, 255, 255, 0.5);
 	color: inherit;
+}
+
+#Welcome {
+	margin-top: 100px;
+	background-image: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/mountains-snow/mountains-snow-header-7050.jpg");
+	background-size: cover;
+	height: 300px;
+}
+
+#Welcomeblog {
+	margin-top: 100px;
+}
+
+#About {
+	margin-top: 100px;
+}
+
+#Email {
+	margin-top: 100px;
+}
+
+#social-buttons button {
+	color: white;
+}
+
+.btn-twitter {
+	background-color: #00acee;
+	border-color: #009ad5;
+}
+
+.btn-facebook {
+	background-color: #4868ac;
+	border-color: #314776;
+}
+
+.btn-pinterest {
+	background-color: #b62f26;
+	border-color: #b62f26;
 }
