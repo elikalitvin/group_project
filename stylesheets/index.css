@@ -1,0 +1,20 @@
+.first-slide {
+	width: 100%;
+}
+
+.second-slide {
+	width: 100%;
+}
+
+.third-slide {
+	width: 100%;
+}
+
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: inherit;
+}
+
+#Content {
+	margin-top: 50px;
+}
