@@ -44,3 +44,29 @@ body {
 	background-color: #b62f26;
 	border-color: #b62f26;
 }
+
+.na {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+textarea {
+	border-radius: 9px;
+	font-size: 16px;
+}
+
+#name {
+	border-radius: 9px;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
