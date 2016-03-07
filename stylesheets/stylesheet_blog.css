@@ -31,3 +31,16 @@ footer {
 	color: white;
 	text-align: center;
 }
+#design {
+	margin-bottom: 5px;
+	padding-bottom: 20px;
+}
+
+#menuBar {
+	padding-top: 30px;
+}
+
+#menuBar a {
+	color: white;
+	font-size: 18px;
+}
