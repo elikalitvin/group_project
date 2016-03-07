@@ -65,3 +65,21 @@ footer {
 	color: white;
 	text-align: center;
 }
+
+#menuBar {
+	padding-bottom: -50px;
+}
+
+#design {
+	margin-bottom: 5px;
+	padding-bottom: 20px;
+}
+
+#menuBar {
+	padding-top: 30px;
+}
+
+#menuBar a {
+	color: white;
+	font-size: 18px;
+}

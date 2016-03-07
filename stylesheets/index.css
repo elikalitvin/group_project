@@ -50,3 +50,21 @@ footer {
 	color: white;
 	text-align: center;
 }
+
+#menuBar {
+	padding-top: 30px;
+}
+
+#menuBar a {
+	color: white;
+	font-size: 18px;
+}
+
+#design {
+	margin-bottom: 5px;
+	padding-bottom: 20px;
+}
+
+#Socialmedia {
+	margin-bottom: 30px;
+}
