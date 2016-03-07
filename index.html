@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Group project by elikalitvin</title>
+    <title>Home</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!--Twitter Bootstrap-->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
@@ -20,6 +24,14 @@
     
   </head>
   <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <!--Navbar-->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -31,7 +43,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="index.html">Adventures</a>
+        <a class="navbar-brand" href="index.html">Home</a>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -70,16 +82,16 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="http://static1.squarespace.com/static/563b2a21e4b07a1a20b52bdf/t/563b2d7ae4b092416c9ad4bc/1446718848223/Loch-Ness-9.jpg?format=1500w" title="combine" />
+          <img class="second-slide" src="Loch-Ness-9.jpg" title="Loch Ness" />
           <div class="container">
             <div class="carousel-caption">
-              <h1>Visit Nessi!</h1>
+              <h1>Visit Nessi</h1>
               <p><a class="btn btn-lg btn-primary" href="blog.html" role="button">View Blog</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="https://edinburgh-chamber-assets.s3.amazonaws.com/sites/55896821a2cc3d709c000002/pages/55896821a2cc3d709c000004/files/ECC-Homepage.jpg" title="Stable block" />
+          <img class="third-slide" src="ECC-Homepage.jpg" title="Stable block" />
           <div class="container">
             <div class="carousel-caption">
               <h1>Edinburgh</h1>
@@ -104,13 +116,41 @@
 <div class="container" id="Content">
     <div class="jumbotron">
       <div>
-        <h1>Welcome to our page</h1>
-        <p>text...</p>
+        <h1>Welcome!</h1>
+        <p>Looking for something that you want to do at the weekend after an exhausting week at uni? </p>
+        <p>You are in the right place mate!</p>
+        <p>This website is about fun activities in Scotland.</p>
+        <p>Feel free to go to Blog section to explore what kind of adventure can possibly make your stressful student life more enjoyble!</p>
       </div>
     </div>
+    <div id="Socialmedia">
+          <p>If you like what you see just connect with us via Social Media!</p>
+        <div id='social-buttons'>
+            <button class='btn btn-twitter'>Twitter</button>
+            <button class='btn btn-facebook'>Facebook</button>
+            <button class='btn btn-pinterest'>Pinterest</button>
+        </div>
     </div>
+</div>
+
 
 
   </body>
+
+  <footer>
+    <div class="row" id="menuBar">
+      <ul>
+        <a href="#">Back to top</a>
+      </ul>
+    </div>
+    <div class="hr">
+      <hr>
+    </div>
+    <div class="contrainer">
+      Designed & developed by Elika Litvin, Lena Sta and Kaisa Yrjana with the help of CodeFirst: Girls
+    </div>
+    
+</footer>
+
 </html>
 
